@@ -101,36 +101,46 @@
           <p>○총 문항 점수는 <span>10점 </span>만점 입니다</p>
         </div>
 
-        <div class="year-box">
-          <form name="year" id="year" method="POST">
-            <div class="years" style="text-align: center">태어난 년도</div>
-            <input
-              type="number"
-              maxlength="4"
-              id="day"
-              style="font-size: 1.5em; text-align: center"
-              placeholder="1980"
-            />
 
-            <input
-              id="start_btn"
+    
+        <div class="year-box">
+        <!--  <form name="year" id="year" method="POST">-->
+
+      
+            <div style="display: flex; ">
+
+              <div class="years" style="text-align: center">태어난 년도</div>
+              <input
+                type="number"
+                maxlength="4"
+                id="day"
+                
+                style="font-size: 1.5em;"
+                placeholder="1980"
+              />
+
+            </div>
+            
+         <!-- </form>-->
+        </div>
+        
+        <input
+              id="year"
               type="submit"
               class="start-box"
               value="시작하기"
-              style="color: white; position: inherit; font-size: 1.5em"
+              
+              style="color: white; position: inherit; font-size: 1.5em; display: inline-block;"
             />
-          </form>
-        </div>
         <div style="color: #c4c4c4; margin-top: 20px;">서비스를 이용하면 <a href="Gen-Link+문화영역+모의고사+개인정보+수집+및+처리+약관.html" style="color:#c4c4c4; " target="_blank">이용약관</a>에 동의하는 것으로 간주합니다</div>
 
         <img
-          src="https://raw.githubusercontent.com/sunes26/highchallange/main/old/image/%ED%95%98%EC%9D%B4%EC%B1%8C%EB%A6%B0%EC%A7%80%EC%8A%A4%EC%BF%A8%20%EC%95%84%EC%9D%B4%EC%BD%98.png"
+          src="image/하이챌린지스쿨 아이콘.png"
           width="40%"
-          style="margin-top: 160px"
+          style="margin-top: 160px;"
         />
       </div>
     </div>
-    <div></div>
     <script src="year.js"></script>
   </body>
 </html>
